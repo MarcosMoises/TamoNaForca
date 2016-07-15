@@ -1,0 +1,55 @@
+Autor: Marcos Moises
+Co-autores: Yuri Leal, Eloiza Beatriz, Andryele Medeiros
+
+Escola: Instituto Federal do Rio Grande do Norte, campus Caicó
+Curso: Informatica
+Periodo: P3
+//todos fazem o mesmo periodo e curso
+
+Inicio do re-projeto: 19/08/2015
+//re-projeto pois já foi feito a base do programa, mas o codigo teve que ser readaptado para trabalhar com .txt
+Horario: 11:27, manhã calma, pássaros piando, som de caminhão passando, preciso ir pra escola agora, conheci Ruby(mas nao experimentei)
+//e hoje na hora do recreio nao sera legal :'(
+//mas amanha eh quinta, entao xD
+
+Programa do controle de banco de dados finalizado: 16/09/2015
+//tive problema com a organizacao do codigo, aí acabei esquecendo de alocar memoria para as PILHAS da palavras nas PILHAS de categoria
+Horario: 7:30 - 8:05, manhã normal, olhos ardendo, som de clicks no mouse, pessoas conversando, estou na biblioteca, a água da escola não está legal
+//ajeitei o problema de alocao, simples, mas demorei mais de 1 semana para descobrir o erro
+//agora sei a importancia de alocar memoria para ponteiros O_O
+
+Inicio da insercao do codigo de banco de dados no codigo-fonte do jogo da forca: 16/09/2015
+Horário: 08:08, tenho que estudar um poema de Drummond: morte no avião
+
+-------------------------------------------------------
+-------------------------------------------------------
+para colocar mais categorias e palavras sempre use os especificadores
++ -> para indicar uma categoria
+- -> para indicar uma palavra daquela categoria
+, -> para separar a palavra das dicas, e as dicas
+
+--------------------------------------------------------
+Ex.: 
++(nome da cagetoria)
+-(palavra),(dica1),(dica2),(dica3)
+--------------------------------------------------------
+--------------------------------------------------------
+ATENCAO
+*sempre separe uma categoria de outra por 1 linha
+ Ex.:
+ +animais
+ -lobo,pelo,feroz,caninos
+
+ +pokemons
+ -vc,jogador da forca,leitor de txt,gosta de digglets
+
+*nao use espacos para separar nomes dos especificadores, apenas no nome das palavras ou categorias
+ Ex.:
+ + animais->ERRADO
+ +animais ->certo
+ - lobo, pelo, feroz, caninos->ERRADO
+ -lobo,pelo,feroz,caninos    ->certo
+--------------------------------------------------------
+--------------------------------------------------------
+
+CODIGO-FONTE em .: "---"

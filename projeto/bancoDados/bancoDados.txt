@@ -1,0 +1,16 @@
++animais muitos
+-lobo,pelo,feroz,quase cachorro
+-gato,peludo,felino,miau
+-outro,oxe,sei nao,mas pia
+
++pokemons
+-pikachu,choque do trovao,Ash,gosta de rola
+-dugtrio,sao 3,topeiras,macho man
+
++humanos
+-criador,ele,ela,nois
+-nao entendo,como assim,ops,ela
+
++jogos
+-CS,terror e cts,the bomb has ben planted,HeadShot
+-Forca,erro de alocacao,diversas tentativas,primeira parte pronta

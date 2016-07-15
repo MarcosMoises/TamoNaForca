@@ -1,0 +1,49 @@
+# Project: TamoNaForcaProject
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = TamoNaForca.o myLibraries/wordHelper.o myLibraries/PILHAS.o drawHelper.o myLibraries/databaseCODES/stackCLASS.o myLibraries/databaseCODES/stackWORD.o myLibraries/layout/windowsHELPER.o myLibraries/helpers/stringHELPER.o
+LINKOBJ  = TamoNaForca.o myLibraries/wordHelper.o myLibraries/PILHAS.o drawHelper.o myLibraries/databaseCODES/stackCLASS.o myLibraries/databaseCODES/stackWORD.o myLibraries/layout/windowsHELPER.o myLibraries/helpers/stringHELPER.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = TamoNaForcaProject.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+TamoNaForca.o: TamoNaForca.c
+	$(CC) -c TamoNaForca.c -o TamoNaForca.o $(CFLAGS)
+
+myLibraries/wordHelper.o: myLibraries/wordHelper.c
+	$(CC) -c myLibraries/wordHelper.c -o myLibraries/wordHelper.o $(CFLAGS)
+
+myLibraries/PILHAS.o: myLibraries/PILHAS.c
+	$(CC) -c myLibraries/PILHAS.c -o myLibraries/PILHAS.o $(CFLAGS)
+
+drawHelper.o: drawHelper.c
+	$(CC) -c drawHelper.c -o drawHelper.o $(CFLAGS)
+
+myLibraries/databaseCODES/stackCLASS.o: myLibraries/databaseCODES/stackCLASS.c
+	$(CC) -c myLibraries/databaseCODES/stackCLASS.c -o myLibraries/databaseCODES/stackCLASS.o $(CFLAGS)
+
+myLibraries/databaseCODES/stackWORD.o: myLibraries/databaseCODES/stackWORD.c
+	$(CC) -c myLibraries/databaseCODES/stackWORD.c -o myLibraries/databaseCODES/stackWORD.o $(CFLAGS)
+
+myLibraries/layout/windowsHELPER.o: myLibraries/layout/windowsHELPER.c
+	$(CC) -c myLibraries/layout/windowsHELPER.c -o myLibraries/layout/windowsHELPER.o $(CFLAGS)
+
+myLibraries/helpers/stringHELPER.o: myLibraries/helpers/stringHELPER.c
+	$(CC) -c myLibraries/helpers/stringHELPER.c -o myLibraries/helpers/stringHELPER.o $(CFLAGS)

@@ -1,0 +1,28 @@
++professores
+-alisson,vacilao,cego,sombracelha do capeta
+-jonas,coruja,gaara,pertubado
+-aristonio,Meu Jovem,pulinhos da alegria,duplo sentido
+-malu,sensivel,hippie,pertubada
+-mirelly,intolerancia a lactose,ex-enfermeira,verbo tobi
+-francisco,gigante,diodo,chico
+
++alunos de informatica
+-moises,lapao,perturbado,alto
+-mateus,ama ser expulso,branquelo,fala leseiras
+-andryele,amostrada,tecnica da ti que nao sabe abrir uma pasta,peitao
+-milena,voz irritante,ciumenta,risadinha
+-vinicius eduardo,psicopata,pombao,bone
+-vinicius xavier,iphone,good english,big friend
+-livya,gnomo,formiga,jan
+-kleiton,fofoqueiro,metido,mandao
+-jonathan,bigode,vacilao,rico
+-hewerton,pegador,bruto,siames
+-lais,bundao,cachaca,danca
+-ayrton,doido,gente boa,lesadao
+-karolaine,mandona,madalfa,windows phone
+-kaio,arrasador de coracoes, casaco azul, madonna
+-victoria,trufas,baixinha,africana
+-joao pedro,soin,zuadento,chato
+-jackson,africano,irritante,lapao
+-vinicius silva,calado,miojo,misterioso
+-janice,quieta,assanhadinha,
